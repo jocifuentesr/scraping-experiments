@@ -1,10 +1,13 @@
 # Taller de web scraping con Python 2024
+Esta sons mis notas del taller desarrollado en enero de 2024 en la PUC en el evento de nombre Datapalooza.
 
-Cursos que dicta Riva 
+**Relatora:** Riva Quiroa 
+Cursos que dicta Riva en el diplomado de ciencia de datos. 
 
 - Webscraping con Python 
 - Minería de textos 
 
+## Primer ejercicio
 El siguiente bloque de código importa las bibliotecas necesarias para realizar web scraping y manipular los datos obtenidos.
 
 En primer lugar, se importa la biblioteca requests, que permite enviar solicitudes HTTP y obtener el contenido de una página web. Esta biblioteca es fundamental para realizar la solicitud de la página que se desea analizar.
