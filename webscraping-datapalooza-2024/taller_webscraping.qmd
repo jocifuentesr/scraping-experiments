@@ -5,12 +5,23 @@ Cursos que dicta Riva
 - Webscraping con Python 
 - Minería de textos 
 
+El siguiente bloque de código importa las bibliotecas necesarias para realizar web scraping y manipular los datos obtenidos.
+
+En primer lugar, se importa la biblioteca requests, que permite enviar solicitudes HTTP y obtener el contenido de una página web. Esta biblioteca es fundamental para realizar la solicitud de la página que se desea analizar.
+
+A continuación, se importa la biblioteca BeautifulSoup de bs4, que es una poderosa herramienta de análisis HTML y XML. Esta biblioteca nos permite extraer información específica de una página web analizando su estructura y etiquetas.
+
 ```{python}
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 ```
 
+El siguiente fragmento de código utiliza la biblioteca *requests* para enviar una solicitud HTTP GET a la URL especificada. La URL apunta a una página web específica que se desea analizar para el web scraping.
+
+La función requests.get() toma la URL como argumento y devuelve una respuesta que se almacena en la variable respuesta. Esta respuesta contiene varios datos, incluyendo el contenido de la página web (HTML, CSS, JavaScript, etc.), los encabezados de la respuesta y el estado de la respuesta (por ejemplo, 200 para éxito, 404 para no encontrado, etc.).
+
+En resumen, este fragmento de código es el primer paso en un proceso de web scraping, donde se obtiene el contenido de la página web que se desea analizar.
 
 ```{python}
 respuesta = requests.get("https://rivaquiroga.github.io/datapalooza-2024-webscraping/ejercicio-1/pagina.html")
